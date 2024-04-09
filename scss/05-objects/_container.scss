@@ -1,0 +1,19 @@
+@use '../01-settings/' as *;
+@use '../02-tools/' as *;
+
+.container {
+
+    width: 100%;
+    // padding: 0 $gutter;
+    // border: 1px solid red;
+
+    @include medium {
+        margin: 0 auto;
+        max-width: 74 * $grid-base;
+    }
+
+    @include large {
+        max-width: 112 * $grid-base;
+    }
+
+}
