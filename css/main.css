@@ -196,10 +196,19 @@ p {
   padding: 0;
 }
 
+.blackout {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .site-header {
   height: 100vh;
   background: url("../assets/img/start.jpeg") center/cover fixed;
   position: relative;
+}
+.site-header__blackout {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .site-header__h1 {
   position: absolute;
