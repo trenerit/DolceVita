@@ -239,6 +239,9 @@ p {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
+.image-box__image--next {
+  background: url("../assets/img/two.jpeg") center/cover;
+}
 .image-box__text {
   text-align: center;
   padding: 1rem;
@@ -282,6 +285,18 @@ p {
 }
 .site-section--bg-color {
   background-color: #504533;
+}
+
+.text-color-white {
+  color: #eff0f3;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-justify {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=main.css.map */
