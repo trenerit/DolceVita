@@ -226,6 +226,26 @@ p {
   background-color: #74030e;
 }
 
+.image-box {
+  box-shadow: 0 0 15px gray;
+  border-radius: 6px;
+}
+.image-box:hover {
+  box-shadow: 0 0 25px gray;
+}
+.image-box__image {
+  background: url("../assets/img/one.jpg") center/cover;
+  height: 22rem;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.image-box__text {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-family: Roboto, "sans-serif";
+}
+
 .site-header {
   height: 100vh;
   background: url("../assets/img/start.jpeg") center/cover fixed;
@@ -259,6 +279,9 @@ p {
 .site-section {
   min-height: 70vh;
   padding-top: 3rem;
+}
+.site-section--bg-color {
+  background-color: #504533;
 }
 
 /*# sourceMappingURL=main.css.map */
